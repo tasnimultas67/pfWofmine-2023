@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.card-title {
+  margin: 0 0 10px;
+  line-height: 36px;
+}
+
+/******* Common Element CSS End *********/
+
+/* -------- title style ------- */
+
+
+
+/******* Middle section CSS Start ******/
+/* -------- Landing page ------- */
+.portfolio-section {
+  font-family: 'Inter', sans-serif;
+}
+
+.portfolio-section .owl-stage {
+  margin: 15px 0;
+  display: flex;
+  display: -webkit-flex;
+}
+
+.portfolio-section .item {
+  margin: 0 15px 60px;
+  width: 320px;
+  height: 400px;
+  display: flex;
+  display: -webkit-flex;
+  align-items: flex-end;
+  -webkit-align-items: flex-end;
+  background: #343434 no-repeat center center / cover;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.portfolio-section .item.active {
+  width: 500px;
+  box-shadow: 12px 40px 40px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 12px 40px 40px rgba(0, 0, 0, 0.25);
+}
+
+.portfolio-section .item:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+}
+
+.portfolio-section .item-desc {
+  padding: 0 24px 24px;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transform: translateY(calc(100% - 54px));
+  -webkit-transform: translateY(calc(100% - 54px));
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+}
+
+.portfolio-section .item.active .item-desc {
+  transform: none;
+  -webkit-transform: none;
+}
+
+.portfolio-section .item-desc p {
+  opacity: 0;
+  -webkit-transform: translateY(32px);
+  transform: translateY(32px);
+  transition: all 0.4s ease-in-out 0.2s;
+  -webkit-transition: all 0.4s ease-in-out 0.2s;
+}
+
+.portfolio-section .item.active .item-desc p {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.portfolio-section .item-desc a {
+  opacity: 0;
+  -webkit-transform: translateY(32px);
+  transform: translateY(32px);
+  transition: all 0.5s ease-in-out 0.3s;
+  -webkit-transition: all 0.5s ease-in-out 0.3s;
+}
+
+.portfolio-section .item.active .item-desc a {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.portfolio-section .owl-theme.custom-carousel .owl-dots {
+  margin-top: -20px;
+  position: relative;
+  z-index: 5;
+}
+
+/******** Middle section CSS End *******/
+
+/***** responsive css Start ******/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .card-title {
+    margin: 0 0 50px;
+    line-height: 32px;
+  }
+
+  /* -------- Landing page ------- */
+  .portfolio-section {
+    padding: 50px 30px;
+  }
+
+  .portfolio-section .item {
+    margin: 0 12px 60px;
+    width: 260px;
+    height: 360px;
+  }
+
+  .portfolio-section .item.active {
+    width: 400px;
+  }
+
+  .portfolio-section .item-desc {
+    transform: translateY(calc(100% - 46px));
+    -webkit-transform: translateY(calc(100% - 46px));
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .card-title {
+    margin: 0 0 8px;
+    line-height: 32px;
+  }
+
+  /* -------- Landing page ------- */
+  .portfolio-section {
+    padding: 50px 30px 40px;
+  }
+
+  .portfolio-section .item {
+    margin: 0 12px 60px;
+    width: 240px;
+    height: 330px;
+  }
+
+  .portfolio-section .item.active {
+    width: 360px;
+  }
+
+  .portfolio-section .item-desc {
+    transform: translateY(calc(100% - 42px));
+    -webkit-transform: translateY(calc(100% - 42px));
+  }
+}
+
+@media (max-width: 767px) {
+
+  .card-title {
+    margin: 0 0 8px;
+    line-height: 24px;
+  }
+
+
+  /* -------- Landing page ------- */
+  .portfolio-section {
+    padding: 30px 15px 20px;
+  }
+
+  .portfolio-section .item {
+    margin: 0 10px 40px;
+    width: 200px;
+    height: 350px;
+  }
+
+  .portfolio-section .item.active {
+    width: 270px;
+    box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.25);
+  }
+
+  .portfolio-section .item-desc {
+    padding: 0 14px 14px;
+    transform: translateY(calc(100% - 42px));
+    -webkit-transform: translateY(calc(100% - 42px));
+  }
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+  margin-top: 0px !important;
+}

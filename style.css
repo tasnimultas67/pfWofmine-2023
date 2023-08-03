@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;500;600;700;800;900&display=swap');
+
+
+@font-face {
+    font-family: F37Ginger;
+    src: url(./Assets/F37_Ginger/F37\ Ginger\ Bold.ttf);
+}
+
+.name-heading {
+    font-family: F37Ginger;
+}
+
+body {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='32' height='32' fill='none' stroke='%23f1f5f9'%3e%3cpath d='M0 .5H31.5V32'/%3e%3c/svg%3e");
+    background-color: rgb(248 250 252 / 1);
+    font-family: 'Inter', sans-serif;
+}
+
+.hero-bg {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='32' height='32' fill='none' stroke='%23f1f5f9'%3e%3cpath d='M0 .5H31.5V32'/%3e%3c/svg%3e");
+    background-color: rgb(248 250 252 / 1);
+    font-family: 'Inter', sans-serif;
+}
+
+.hero-title {
+    font-family: 'Inter', sans-serif;
+}
+
+.Overpass-font {
+    font-family: 'Overpass', sans-serif;
+
+}
