@@ -88,6 +88,7 @@ document.addEventListener("DOMContentLoaded", function () {
         { "quote": "A room without books is like a body without a soul." },
         { "quote": "You only live once, but if you do it right, once is enough." },
         { "quote": "If you tell the truth, you don't have to remember anything." },
+        { "quote": "We don't see things as they are, we see them as we are." },
         { "quote": "Without music, life would be a mistake." },
         { "quote": "We are all in the gutter, but some of us are looking at the stars." },
         { "quote": "A woman is like a tea bag; you never know how strong it is until it's in hot water." },
@@ -96,7 +97,6 @@ document.addEventListener("DOMContentLoaded", function () {
         { "quote": "If you judge people, you have no time to love them." },
         { "quote": "I'm not upset that you lied to me, I'm upset that from now on I can't believe you." },
         { "quote": "Everything you can imagine is real." },
-        { "quote": "We don't see things as they are, we see them as we are." },
 
     ]
 
@@ -123,3 +123,30 @@ function getAge(dateString) {
 }
 const myAge = document.getElementById('profileAge')
 myAge.innerText = getAge("2003/12/24")
+
+// ---------------------------------
+
+// Get paths with targets.
+const animatedPaths = document.querySelectorAll('[data-morph-targets]');
+
+// Create timeline for each morphing paths.
+animatedPaths.forEach((path, index) => {
+    const targets = path.getAttribute('data-morph-targets').split(',');
+    const timeline = gsap.timeline({
+        delay: index * -2,
+        repeat: -1,
+        yoyo: true,
+    });
+
+    targets.forEach((targetId) => {
+        const target = document.querySelector(`[data-morph=${targetId}]`);
+
+        timeline.to(
+            path,
+            5, {
+            morphSVG: target,
+            ease: "none",
+        },
+        );
+    });
+});

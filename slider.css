@@ -10,14 +10,6 @@
   line-height: 36px;
 }
 
-/******* Common Element CSS End *********/
-
-/* -------- title style ------- */
-
-
-
-/******* Middle section CSS Start ******/
-/* -------- Landing page ------- */
 .portfolio-section {
   font-family: 'Inter', sans-serif;
 }
@@ -113,9 +105,6 @@
   z-index: 5;
 }
 
-/******** Middle section CSS End *******/
-
-/***** responsive css Start ******/
 
 @media (min-width: 992px) and (max-width: 1199px) {
 
@@ -124,7 +113,6 @@
     line-height: 32px;
   }
 
-  /* -------- Landing page ------- */
   .portfolio-section {
     padding: 50px 30px;
   }
@@ -152,7 +140,6 @@
     line-height: 32px;
   }
 
-  /* -------- Landing page ------- */
   .portfolio-section {
     padding: 50px 30px 40px;
   }
@@ -180,8 +167,6 @@
     line-height: 24px;
   }
 
-
-  /* -------- Landing page ------- */
   .portfolio-section {
     padding: 30px 15px 20px;
   }
@@ -194,8 +179,9 @@
 
   .portfolio-section .item.active {
     width: 270px;
-    box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.25);
-    -webkit-box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.25); */
+    box-shadow: 0px 0px 20px rgba(19, 17, 17, 0.295);
+    -webkit-box-shadow: 6px 0px 10px rgba(43, 34, 34, 0.308);
   }
 
   .portfolio-section .item-desc {
