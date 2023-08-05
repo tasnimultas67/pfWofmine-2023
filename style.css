@@ -112,7 +112,6 @@ body {
 .scrolling-text .scroll div {
     color: #000;
     font-size: 4em;
-    background: #fff;
     white-space: nowrap;
     font-weight: 900;
     text-transform: uppercase;
