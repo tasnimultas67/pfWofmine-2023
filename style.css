@@ -167,8 +167,11 @@ body {
 body {
     background: #0f0826;
     position: relative;
+    overflow-x: hidden;
 }
-
+.tasnimul{
+    background-color: #ffff00;
+}
 body:before,
 body:after {
     content: '';
