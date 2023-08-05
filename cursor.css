@@ -1,0 +1,57 @@
+/* body {
+    margin: 0;
+    padding: 0;
+    background: url(https://fadzrinmadu.github.io/hosted-assets/awesome-cursor-animation-on-mousemove/bg.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    cursor: pointer;
+} */
+
+.content p {
+    width: 700px;
+    line-height: 26px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.cursor {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #c6c6c6;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .1s;
+}
+
+.cursor2 {
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    background-color: #c6c6c6;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .15s;
+}
+
+.content:hover~.cursor {
+    transform: translate(-50%, -50%) scale(1.5);
+    background-color: #c6c6c6;
+    opacity: .5;
+}
+
+.content:hover~.cursor2 {
+    opacity: 0;
+}
