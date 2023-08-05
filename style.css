@@ -165,7 +165,10 @@ body {
 
 /* coloring background */
 body {
-    background: #0f0826;
+    background: radial-gradient(circle, rgb(15, 8, 38) 00%, rgb(0, 2, 18) 100%);
+    
+    /* background: #0f0826; */
+    /* background: #000212; */
     position: relative;
     overflow-x: hidden;
 }
