@@ -4,10 +4,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
-@font-face {
-    font-family: F37Ginger;
-    src: url(./Assets/F37_Ginger/F37\ Ginger\ Bold.ttf);
-}
 
 @font-face {
     font-family: Roobert;
@@ -18,9 +14,6 @@
     font-family: Roobert;
 }
 
-.name-heading {
-    font-family: F37Ginger;
-}
 
 body {
     font-family: 'Inter', sans-serif;

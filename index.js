@@ -124,29 +124,3 @@ function getAge(dateString) {
 const myAge = document.getElementById('profileAge')
 myAge.innerText = getAge("2003/12/24")
 
-// ---------------------------------
-
-// // Get paths with targets.
-// const animatedPaths = document.querySelectorAll('[data-morph-targets]');
-
-// // Create timeline for each morphing paths.
-// animatedPaths.forEach((path, index) => {
-//     const targets = path.getAttribute('data-morph-targets').split(',');
-//     const timeline = gsap.timeline({
-//         delay: index * -2,
-//         repeat: -1,
-//         yoyo: true,
-//     });
-
-//     targets.forEach((targetId) => {
-//         const target = document.querySelector(`[data-morph=${targetId}]`);
-
-//         timeline.to(
-//             path,
-//             5, {
-//             morphSVG: target,
-//             ease: "none",
-//         },
-//         );
-//     });
-// });
