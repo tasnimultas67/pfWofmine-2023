@@ -24,7 +24,6 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    /* background-color: #000; */
 }
 
 .hero-title {
@@ -50,50 +49,6 @@ body {
 .scrollFade--animate {
     transition: opacity 1.2s ease-in-out;
 }
-
-/* Background ------------------ */
-/* .morphing-svg {
-    filter: blur(85px);
-    left: 0;
-    position: fixed;
-    right: 0;
-    top: 0;
-    width: 100%;
-}
-
-.morphing-svg path {
-    visibility: hidden;
-}
-
-.morphing-svg [data-morph-targets] {
-    fill: #332d2d;
-    visibility: visible;
-}
-
-.title {
-    font-size: 40px;
-    line-height: 1.2;
-    max-width: 680px;
-    text-align: center;
-    z-index: 1;
-}
-
-body {
-    background-color: #000;
-}
-
-.hero-section {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    min-height: 100vh;
-    padding: 20px;
-}
-
-* {
-    box-sizing: border-box;
-} */
-
 
 /* Scrolling Text animation ----------- */
 .scrolling-text {
@@ -154,28 +109,28 @@ body {
     width: 100%;
 }
 
-/* body {
+body {
     font-family: sans-serif;
-    background: rgb(8, 4, 49);
-    background: radial-gradient(circle, rgba(34, 32, 32, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: radial-gradient(circle, #0C1221 0%, #000212 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+/* body {
+    background: radial-gradient(circle, rgb(15, 8, 38) 00%, #0F172A 100%);  
+    background: #0f0826;
+    background: #000212;
+    background: #0C1221;
+    position: relative;
+    overflow-x: hidden;
 } */
 
 
-/* coloring background */
-body {
-    background: radial-gradient(circle, rgb(15, 8, 38) 00%, rgb(0, 2, 18) 100%);
-    
-    /* background: #0f0826; */
-    /* background: #000212; */
-    position: relative;
-    overflow-x: hidden;
-}
 .tasnimul{
     background-color: #ffff00;
 }
-body:before,
+ body:before,
 body:after {
     content: '';
     display: block;
@@ -328,8 +283,7 @@ body:after {
 
     100% {
         top: 0vh;
-        left: 50vw;
-    }
+        left: 50vw;    }
 }
 
 @-moz-keyframes move2 {
@@ -426,4 +380,4 @@ body:after {
         top: 50vh;
         left: 100vw;
     }
-}
+} 
