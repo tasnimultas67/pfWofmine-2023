@@ -98,7 +98,7 @@ body {
 }
 
 .scrolling-text .scroll.text1 {
-    transform: rotate(3deg) translateY(200px) translateX(-200px);
+    transform: rotate(0deg) translateY(200px) translateX(-200px);
     width: 100%;
 }
 
