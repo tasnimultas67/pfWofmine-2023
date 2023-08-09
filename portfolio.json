@@ -1,0 +1,25 @@
+{
+    "portfolios":[
+        {"portImg": "./Assets/portfolios/DhakaStartup.jpg", "portTitle": "Dhaka Startup", "portDescription": "Dhaka Startup is a trusted organization established with the aim of creating success in IT. Since its inception, Dhaka Startup has achieved multi-faceted success. The company provides all kinds of online solutions for your business.", "siteLink": "https://dhakastartup.com/" },
+
+        {"portImg": "./Assets/portfolios/DhakaStartup.jpg", "portTitle": "Fusion Arts", "portDescription": "Fusion Arts is an event entertainment agency and contemporary circus company based in Montpellier in the south of France. Its mission is to create and provide high quality event entertainment to its clients around the world.", "siteLink": "https://fusion-arts.com/" },
+
+        {"portImg": "./Assets/portfolios/DhakaStartup.jpg", "portTitle": "Green Life", "portDescription": "GreenLifeKSA is a company based in Riyadh, Saudi Arabia that provides natural and organic food products. According to their Facebook page, GreenLifeKSA was founded in 2015 by a retail professional with the mission to provide the best wholesale program that offers natural and organic food products.", "siteLink": "https://greenlifeksa.com/" },
+
+        {"portImg": "./Assets/portfolios/DhakaStartup.jpg", "portTitle": "Boon Solutions", "portDescription": "Boon Solutions is a business intelligence company that provides end-to-end data analytics and process automation solutions. They help organizations unlock the value of their data by providing consulting, end-to-end data analytics, and process automation solutions.", "siteLink": "https://www.boon.com.au" },
+
+        {"portImg": "./Assets/portfolios/DhakaStartup.jpg", "portTitle": "Oremy", "portDescription": "Oremy Australia is a business intelligence company that provides fast, simple, and effective data analytics solutions. They partner with industry leaders across all sectors providing best-in-class technology with market-leading consulting and support.", "siteLink": "https://oremy.com.au/" },
+
+        {"portImg": "./Assets/portfolios/DhakaStartup.jpg", "portTitle": "Who Will Speak For You", "portDescription": "Who Will Speak For You is a company that provides an Emergency Contact and Information Card (ECIC) that allows first responders to quickly access your vital health information with a simple scan of a QR code. The ECIC is especially useful for people with medical conditions like diabetes, seizures, dementia.", "siteLink": "https://www.whowillspeakforyou.com/" },
+
+        {"portImg": "./Assets/portfolios/DhakaStartup.jpg", "portTitle": "Vive Fitness Uk", "portDescription": "Vive Fitness is a premier electro muscle stimulation studio located in London. They combine EMS (electro-muscle-stimulation) technology with tailored training programs to transform your health and fitness experience.", "siteLink": "https://vivefitness.co.uk/" },
+
+        {"portImg": "./Assets/portfolios/DhakaStartup.jpg", "portTitle": "Marlon Nikolai", "portDescription": "Atelier Marlon Nikolai is an art studio located in Berlin, Germany. The studio is situated in an old, former factory building with high ceilings and a large, light-flooded glass facade that provides the optimal conditions to work on their artworks.", "siteLink": "https://www.ateliermarlonnikolai.com/" },
+
+        {"portImg": "./Assets/portfolios/DhakaStartup.jpg", "portTitle": "Sparky Mall", "portDescription": "SparkyMall is an online electrical wholesaler in Australia that provides quality electrical supplies to customers1. They offer a wide range of products such as large dolly, opal glass.", "siteLink": "https://www.sparkymall.com.au/" },
+
+        {"portImg": "./Assets/portfolios/DhakaStartup.jpg", "portTitle": "Mundgefuehl", "portDescription": "Mundgefühl is a food blog and food photography blog that provides recipes for quick, healthy, and delicious meals. The blog is aimed at readers who value healthy, freshly prepared food despite being able to spend little time in the kitchen.", "siteLink": "https://www.mundgefuehl.com/" },
+
+        {"portImg": "./Assets/portfolios/DhakaStartup.jpg", "portTitle": "Game Team", "portDescription": "GameTeam.Dev is a part-time games industry talent acceleration programme that helps you get yourself ready for the games industry and boost your teamworking skills.", "siteLink": "https://www.gameteam.dev/" }
+    ]
+}
