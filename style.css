@@ -10,6 +10,11 @@
     src: url(./Assets/Roobert-Regular/Roobert-Regular.ttf);
 }
 
+#bmc-iframe{
+    height: 560px!important;;
+    min-height: 500px!important;
+}
+
 .Roobert-font {
     font-family: Roobert;
 }
