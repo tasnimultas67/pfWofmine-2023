@@ -15,7 +15,7 @@
 }
 
 ::-moz-selection {
-    background-color: yellow;
+    background-color: #ffff00;
     color: black;
 }
 

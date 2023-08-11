@@ -53,7 +53,7 @@ document.onkeydown = function (e) {
     if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
         return false;
     }
-} 
+}
 
 // quotes of the day
 document.addEventListener("DOMContentLoaded", function () {
@@ -142,3 +142,4 @@ const myAge = document.getElementById('profileAge')
 myAge.innerText = getAge("2003/12/24")
 
 document.getElementById("copywrite-year").innerText = new Date().getFullYear();
+document.getElementById("mb-copywrite-year").innerText = new Date().getFullYear();
