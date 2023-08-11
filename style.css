@@ -111,7 +111,7 @@ body {
     width: 100%;
 }
 
-body {
+body, .m-bg {
     font-family: sans-serif;
     background: radial-gradient(circle, #0C1221 0%, #000212 100%);
     background-repeat: no-repeat;

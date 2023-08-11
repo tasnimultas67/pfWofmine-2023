@@ -141,3 +141,4 @@ function getAge(dateString) {
 const myAge = document.getElementById('profileAge')
 myAge.innerText = getAge("2003/12/24")
 
+document.getElementById("copywrite-year").innerText = new Date().getFullYear();
