@@ -10,10 +10,13 @@
     src: url(./Assets/Roobert-Regular/Roobert-Regular.ttf);
 }
 
-#bmc-iframe{
-    height: 560px!important;;
-    min-height: 500px!important;
+@media screen and (min-width: 1024px) {
+    #bmc-iframe {
+        height: 560px !important;
+        min-height: 500px !important;
+    }
 }
+
 
 .Roobert-font {
     font-family: Roobert;
@@ -116,7 +119,8 @@ body {
     width: 100%;
 }
 
-body, .m-bg {
+body,
+.m-bg {
     font-family: sans-serif;
     background: radial-gradient(circle, #0C1221 0%, #000212 100%);
     background-repeat: no-repeat;
@@ -124,10 +128,11 @@ body, .m-bg {
     overflow-x: hidden;
 }
 
-.tasnimul{
+.tasnimul {
     background-color: #ffff00;
 }
- body:before,
+
+body:before,
 body:after {
     content: '';
     display: block;
@@ -280,7 +285,8 @@ body:after {
 
     100% {
         top: 0vh;
-        left: 50vw;    }
+        left: 50vw;
+    }
 }
 
 @-moz-keyframes move2 {
@@ -377,4 +383,4 @@ body:after {
         top: 50vh;
         left: 100vw;
     }
-} 
+}
