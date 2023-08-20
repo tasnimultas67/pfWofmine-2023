@@ -34,6 +34,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
+    overflow-x: hidden !important;
 }
 
 .hero-title {
@@ -131,6 +132,7 @@ body,
 .tasnimul {
     background-color: #ffff00;
 }
+
 
 body:before,
 body:after {
